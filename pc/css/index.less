@@ -1,0 +1,46 @@
+//"out":true, "compress":true
+@charset "utf-8";
+/* CSS Document */
+/******************************
+** 文件描述 :  Desc
+** 时   间 :  xxxx.xx
+*******************************/
+
+// Less variable definition
+@img: '../images/';
+
+// 字体
+//@yahei: 'Microsoft YaHei';
+@yahei: Arial,'Microsoft YaHei','Helvetica Neue',Helvetica,sans-serif;
+@arial: Arial,'Microsoft YaHei';
+@con: consolas;
+@heiti: '黑体';
+
+// 尺寸
+@w: 1200px;
+
+//CSS Reset
+a{-webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea,hr,td,th{margin: 0; padding: 0;}
+table{border-collapse: collapse; border-spacing: 0; width: 100%;}
+img{border: none;}
+ul,ol,li{list-style-type: none;}
+a{text-decoration: none; cursor: pointer; color: #333;}
+a:hover{text-decoration: underline;}
+input,button,select,textarea{outline: none; background: #fff;}
+input[type="radio"],input[type="checkbox"]{border: none;}
+a,input{outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-tap-highlight-color: transparent;}
+h1,h2,h3,h4,h5,h6{font-size: 100%; font-weight: normal;}
+strong,b{font-weight: normal;}
+em,i{font-style: normal;}
+a,button,input{-webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-tap-highlight-color: transparent;}
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+*,*::before,*::after{box-sizing: inherit;}
+
+// CSS Base
+.clearfix:before,.clearfix:after{content: "."; display: block; height: 0; visibility: hidden;}
+.clearfix:after{clear: both;}
+.clearfix{zoom: 1;}
+.clear{clear:both;}
+.hidetxt {font-size: 0; line-height: 0; _overflow: hidden;}
+.hide{display: none!important;}
